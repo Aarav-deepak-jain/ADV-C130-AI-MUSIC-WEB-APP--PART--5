@@ -1,0 +1,44 @@
+.heading
+{
+    font-size: 23px;
+    width: 100%;
+    margin: 0;
+}
+
+.note
+{
+    font-size: 15px;
+    color: black;
+}
+
+body
+{
+    background-size: cover;
+}
+
+.play_button
+{
+    margin-bottom: 25px;
+    width: 130px;
+    font-size: 25px;
+}
+
+canvas 
+{
+    margin-left:500px;
+    border: solid black;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes example 
+{
+    50% {box-shadow: 10px 20px 30px gray;}
+}
+
+#song_name
+{
+    color: aliceblue;
+}
